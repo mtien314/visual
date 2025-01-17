@@ -55,7 +55,7 @@ with col1:
     ax.grid(color='grey', linestyle='--', linewidth=0.5)
     plt.tight_layout()
     st.pyplot(fig)
-    st.bar_chart(chart_data, x="attributes", y="values",color="#008000")
+    st.bar_chart(chart_data, x="attributes", y="values",color="#0000FF")
 
 with col2:
     st.header("DEF Stats")
@@ -85,7 +85,7 @@ with col2:
     ax.grid(color='grey', linestyle='--', linewidth=0.5)
     plt.tight_layout()
     st.pyplot(fig)
-    st.bar_chart(chart_data, x="attributes", y="values",color="#00FF00")
+    st.bar_chart(chart_data, x="attributes", y="values",color="#0000FF")
 
 with col3:
     st.header("Stamina Stats")
@@ -118,7 +118,7 @@ with col3:
     ax.grid(color='grey', linestyle='--', linewidth=0.5)
     plt.tight_layout()
     st.pyplot(fig)
-    st.bar_chart(chart_data, x="attributes", y="values",color="#00FF00")
+    st.bar_chart(chart_data, x="attributes", y="values",color="#0000FF")
 
 with col4:
     st.header("GK Stats")
@@ -148,4 +148,4 @@ with col4:
     ax.grid(color='grey', linestyle='--', linewidth=0.5)
     plt.tight_layout()
     st.pyplot(fig)
-    st.bar_chart(chart_data, x="attributes", y="values",color="#00FF00")
+    st.bar_chart(chart_data, x="attributes", y="values",color="#0000FF")
