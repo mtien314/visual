@@ -12,7 +12,7 @@ option = st.selectbox(
     club_name
 )
 
-st.write("You selected:", option)
+
 col1, col2, col3, col4  = st.columns(4)
 
 df = pd.read_csv("prep_fifa.csv")
@@ -55,7 +55,7 @@ with col1:
     ax.grid(color='grey', linestyle='--', linewidth=0.5)
     plt.tight_layout()
     st.pyplot(fig)
-    st.bar_chart(chart_data, x="attributes", y="values",color="#F4A460")
+    st.bar_chart(chart_data, x="attributes", y="values",color="#00FF00")
 
 with col2:
     st.header("DEF Stats")
@@ -85,7 +85,7 @@ with col2:
     ax.grid(color='grey', linestyle='--', linewidth=0.5)
     plt.tight_layout()
     st.pyplot(fig)
-    st.bar_chart(chart_data, x="attributes", y="values",color="#FFBD33")
+    st.bar_chart(chart_data, x="attributes", y="values",color="#00FF00")
 
 with col3:
     st.header("Stamina Stats")
@@ -118,7 +118,7 @@ with col3:
     ax.grid(color='grey', linestyle='--', linewidth=0.5)
     plt.tight_layout()
     st.pyplot(fig)
-    st.bar_chart(chart_data, x="attributes", y="values",color="#FFBD33")
+    st.bar_chart(chart_data, x="attributes", y="values",color="#00FF00")
 
 with col4:
     st.header("GK Stats")
