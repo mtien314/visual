@@ -55,7 +55,7 @@ with col1:
     ax.grid(color='grey', linestyle='--', linewidth=0.5)
     plt.tight_layout()
     st.pyplot(fig)
-    st.bar_chart(chart_data, x="attributes", y="values",color="#00FF00")
+    st.bar_chart(chart_data, x="attributes", y="values",color="#008000")
 
 with col2:
     st.header("DEF Stats")
