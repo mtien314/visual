@@ -148,4 +148,4 @@ with col4:
     ax.grid(color='grey', linestyle='--', linewidth=0.5)
     plt.tight_layout()
     st.pyplot(fig)
-    st.bar_chart(chart_data, x="attributes", y="values",color="#FFBD33")
+    st.bar_chart(chart_data, x="attributes", y="values",color="#00FF00")
